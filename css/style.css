@@ -1,0 +1,519 @@
+* {
+  font-family: poppins, sans-serif;
+}
+
+body {
+  margin: 0 8px;
+}
+
+ul {
+  margin: 1rem 0;
+}
+
+/* Header Section */
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: fixed;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+.header-container {
+  height: 100%;
+  margin: auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.header .logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 40px;
+}
+
+.menus {
+  display: flex;
+  align-items: center;
+}
+
+.menus ul {
+  display: inline-flex;
+  list-style: none;
+  align-content: center;
+  align-items: center;
+}
+
+.menus li {
+  padding: 10px 15px;
+}
+
+.menus .post-job-btn {
+  background: #e07827;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.menus .profile-picture img {
+  height: 40px;
+}
+
+/* Child Section */
+.child-section {
+  border-radius: 20px;
+  background: #006f46;
+  color: #ffffff;
+  padding: 40px 20px;
+  margin-bottom: 10px;
+}
+
+.child-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  margin-right: 30px;
+}
+
+.child-container .icon {
+  grid-area: 1 / 1 / span 1 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-container .text {
+  grid-area: 1 / 2 / span 1 / span 1;
+  padding: auto 0;
+}
+
+.child-container .text h1,
+p {
+  margin: 0;
+}
+
+.child-container .options {
+  grid-area: 1 / 3 / span 1 / span 1;
+  padding: auto 0;
+}
+
+/* Profile Section */
+.profile-section {
+  border-radius: 20px;
+  background: #006f46;
+  color: #ffffff;
+  padding: 40px 20px;
+  margin: 10px 0;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 30px;
+  align-items: center;
+}
+
+.profile-container .logo {
+  display: flex;
+}
+
+.profile-container .logo .picture {
+  height: 250px;
+}
+
+.profile-container .logo .medal {
+  position: relative;
+  top: 140px;
+  left: -110px;
+}
+
+.profile-container .logo .medal img {
+  position: relative;
+  height: 125px;
+  text-align: center;
+}
+
+.profile-container .logo .medal h4 {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  top: -110px;
+}
+
+.profile-container .logo .medal p {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  top: -110px;
+}
+
+.profile-container .name {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profile-container .stats {
+  margin: 10px 0;
+}
+
+.profile-container .stats .progress {
+  height: 25px;
+  border-radius: 20px;
+  background: #378060;
+}
+
+.profile-container .stats .progress-bar {
+  background: white;
+}
+
+/* Upcoming Sessions Section */
+.upcoming-sessions-section {
+  border-radius: 20px;
+  background: rgba(55, 128, 96, 0.2);
+  color: black;
+  padding: 40px 20px;
+  margin: 10px 0;
+}
+
+.upcoming-sessions-container {
+  display: grid;
+  grid-template-columns: 8fr 1fr 4fr;
+  margin: 0 30px;
+  /* align-items: center; */
+  align-content: stretch;
+  justify-content: center;
+}
+
+.upcoming-sessions-container .sessions .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upcoming-sessions-container .sessions .heading p {
+  text-decoration: underline;
+}
+
+table.table-hover > thead > tr > th {
+  border-bottom: 2px solid black;
+}
+
+table td img {
+  width: 30px;
+}
+
+/* divider */
+.divider-wall {
+  width: 0;
+  height: 100%;
+  margin: 0 auto;
+  border-right: 2px solid black;
+}
+
+/* Completed Sessions Section */
+.completed-sessions-section {
+  border-radius: 20px;
+  background: rgba(55, 128, 96, 0.2);
+  color: black;
+  padding: 40px 20px;
+  margin: 10px 0;
+}
+
+.completed-sessions-section .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.completed-sessions-section .heading p {
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/** Training Materials **/
+.training-materials {
+  background-color: #006f46;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 477px;
+  left: 0px;
+  bottom: 0px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.training-materials-title {
+  color: #e5e5e5;
+  position: absolute;
+  width: 381px;
+  height: 59px;
+  left: 30px;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.view-all {
+  position: absolute;
+  width: 103px;
+  height: 45px;
+  right: 0px;
+  top: 9%;
+}
+
+.training-category-container {
+  position: relative;
+  top: 25%;
+  margin-left: 2%;
+  overflow-x: hidden;
+}
+
+/*Slider*/
+
+.slider {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.slide {
+  cursor: pointer;
+  width: 408px;
+  height: 252px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slides-container {
+  background-color: gray;
+  height: 252px;
+  border-radius: 20px;
+  width: 408px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-next {
+  top: 25%;
+  right: 1%;
+}
+
+.btn-prev {
+  top: 25%;
+  left: 1%;
+}
+
+.category-title {
+  font-style: normal;
+  font-size: 28px;
+  color: #e5e5e5;
+  width: 100%;
+  position: absolute;
+  margin: 3%;
+  text-decoration: none;
+}
+
+.category-title:hover {
+  margin: 3.3%;
+}
+
+/** Responsive Training Materials **/
+@media only screen and (max-width: 450px) {
+  .training-materials-title {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .view-all {
+    top: 3%;
+    right: 1%;
+    width: 80px;
+  }
+
+  .training-category-container {
+    top: 15%;
+  }
+  .slides-container {
+    width: 87%;
+  }
+
+  .btn-next {
+    top: 30%;
+    right: 4%;
+  }
+
+  .btn-prev {
+    top: 30%;
+  }
+
+  .category-title {
+    font-size: 18px;
+    padding: 0;
+  }
+}
+
+/* Training Library & Category 1 Title - 8 title */
+
+.training-links {
+  position: relative;
+  left: 4.3%;
+  top: 33px;
+  width: 100%;
+
+  font-size: 18px;
+}
+
+.heading h1 {
+  position: relative;
+  left: 4.3%;
+  top: 45px;
+  width: 100%;
+
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: -0.023em;
+  color: #000000;
+}
+
+.heading p {
+  position: relative;
+  width: 100%;
+  left: 4.7%;
+  top: 42px;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.023em;
+  color: #000000;
+}
+
+.category-titles {
+  position: relative;
+  margin: 60px;
+}
+
+.category-titles .box img {
+  object-fit: cover;
+  border-radius: 30px;
+  height: 300px;
+  width: 450px;
+  padding: 10px;
+}
+
+.category-titles video {
+  top: 100px;
+  width: 1149px;
+  border-radius: 20px;
+  background-color: #c4c4c4;
+  padding-bottom: 30px;
+  height: 700px;
+}
+
+/*Feedback*/
+
+.main-feedback {
+  background: rgba(218, 218, 218, 0.8);
+}
+.main-feedback .align-middle {
+  font-size: 32px;
+}
+
+.feedback-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-chart {
+  position: relative;
+  right: 50px;
+  width: 440px;
+  height: 537px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  margin: 40px 0;
+}
+
+.feedback-chart img {
+  object-fit: cover;
+  width: 440px;
+  height: 537px;
+  border-radius: 20px;
+}
+
+.feedback-score {
+  position: relative;
+  right: 50px;
+  width: 440px;
+  height: 384px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.feedback-score table th {
+  font-size: 28px;
+  padding-right: 150px;
+}
+
+.feedback-score table td {
+  font-size: 22px;
+  padding: 15px 0px;
+}
+
+.flex2 .box {
+  width: 893px;
+  margin: 0px 0px 100px 50px;
+}
+
+.flex2 .box input,
+.flex2 .box textarea {
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  width: 105%;
+  height: 190px;
+  padding: 10px;
+}
+.flex2 .box img {
+  width: 105%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 20px;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treiner Dashboard</title>
+
+      <!-- player materials-->
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Poppins Font -->
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/rome.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="./images/treiner-header-logo.png" />
+        </div>
+        <div class="menus">
+          <ul>
+            <li class="post-job-btn">Post a Job</li>
+            <li>My Job Posts</li>
+            <li>Browse Coaches</li>
+            <li>Messages</li>
+            <li>Notifications</li>
+            <li>Camps</li>
+            <li>Help</li>
+            <li class="profile-picture">
+              <img src="./images/profile_prototype.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Child Section -->
+    <div class="child-section">
+      <div class="child-container">
+        <div class="icon">
+          <img src="./images/hand.png" />
+        </div>
+        <div class="text">
+          <h1>Hi, Oliver</h1>
+          <p>Let's keep track of your child's development!</p>
+        </div>
+        <div class="options">
+          <p>Child is</p>
+          <select class="form-control" id="child-name">
+            <option>None</option>
+            <option>Billy Smith</option>
+            <option>John Doe</option>
+            <option>Bobby Martin</option>
+            <option>Frederick Stan</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- Profile section -->
+    <div class="profile-section">
+      <div class="profile-container">
+        <div class="logo">
+          <img class="picture" src="./images/profile_prototype.png" />
+          <div class="medal">
+            <img src="./images/medal.png" />
+            <h4>12</h4>
+            <p>Completed Sessions</p>
+          </div>
+        </div>
+        <div class="name">
+          <h1>Billy Smith</h1>
+          <h5>Centre Back</h5>
+        </div>
+        <div class="statistics">
+          <h5>Scores from the last session</h5>
+          <div class="stats">
+            <p>Tehnical</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="stats">
+            <p>Psychological</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="stats">
+            <p>Physical</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="stats">
+            <p>Social</p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Upcoming Session -->
+    <div class="upcoming-sessions-section">
+      <div class="upcoming-sessions-container">
+        <div class="sessions">
+          <div class="heading">
+            <h1>Upcoming Sessions</h1>
+            <p>+ Add event</p>
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+                <th scope="col">Training Type</th>
+                <th scope="col">Coach</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="align-middle">18 / 05 / 22</td>
+                <td class="align-middle">00:00 AM</td>
+                <td class="align-middle">First Touch</td>
+                <td class="align-middle">
+                  <img src="./images/profile-icon.png" />
+                  Christ Floros
+                </td>
+              </tr>
+              <tr>
+                <td class="align-middle">25 / 05 / 22</td>
+                <td class="align-middle">00:00 PM</td>
+                <td class="align-middle">1 V 1 Defending</td>
+                <td class="align-middle">
+                  <img src="./images/profile-icon.png" />
+                  Kogluan Sabaratnam
+                </td>
+              </tr>
+              <tr>
+                <td class="align-middle">06 / 06 / 22</td>
+                <td class="align-middle">00:00 PM</td>
+                <td class="align-middle">Team Training</td>
+                <td class="align-middle">
+                  <img src="./images/school.png" />
+                  Clubs
+                </td>
+              </tr>
+              <tr>
+                <td class="align-middle">08 / 06 / 22</td>
+                <td class="align-middle">00:00 AM</td>
+                <td class="align-middle">General Fitness</td>
+                <td class="align-middle">
+                  <img src="./images/profile-icon.png" />
+                  Christ Floros
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="divider">
+          <div class="divider-wall"></div>
+        </div>
+        <div class="calendar">
+          <form action="#" class="row">
+            <div class="col-md-12">
+              <div id="inline_cal"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Completed Treiner's Sessions Section -->
+    <div class="completed-sessions-section">
+      <div class="heading">
+        <h1>Upcoming Sessions</h1>
+        <p>+ Add event</p>
+      </div>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Training Type</th>
+            <th scope="col">Coach</th>
+            <th scope="col" class="text-center">Feedback</th>
+            <th scope="col" class="text-center">Review Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="align-middle">18 / 05 / 22</td>
+            <td class="align-middle">00:00 AM</td>
+            <td class="align-middle">First Touch</td>
+            <td class="align-middle">
+              <img src="./images/profile-icon.png" />
+              Christ Floros
+            </td>
+            <td class="align-middle underline text-center"><a href="feedback.html">View</a> </td>
+            <td class="align-middle text-center">
+              <img src="./images/tick.png" />
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">25 / 05 / 22</td>
+            <td class="align-middle">00:00 PM</td>
+            <td class="align-middle">1 V 1 Defending</td>
+            <td class="align-middle">
+              <img src="./images/profile-icon.png" />
+              Kogluan Sabaratnam
+            </td>
+            <td class="align-middle text-center">N/A</td>
+            <td class="align-middle text-center"></td>
+          </tr>
+          <tr>
+            <td class="align-middle">06 / 06 / 22</td>
+            <td class="align-middle">00:00 PM</td>
+            <td class="align-middle">Team Training</td>
+            <td class="align-middle">
+              <img src="./images/school.png" />
+              Clubs
+            </td>
+            <td class="align-middle underline text-center">View</td>
+            <td class="align-middle text-center">
+              <img src="./images/tick.png" />
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">08 / 06 / 22</td>
+            <td class="align-middle">00:00 AM</td>
+            <td class="align-middle">General Fitness</td>
+            <td class="align-middle">
+              <img src="./images/profile-icon.png" />
+              Christ Floros
+            </td>
+            <td class="align-middle underline text-center">View</td>
+            <td class="align-middle text-center"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Completed Treiner's Training materials section -->
+    <div class="training-materials">
+      <p class="training-materials-title">Training Materials</p>
+      <p class="view-all">
+        <a href="training-library.html">view all</a>
+      </p>
+      <div class="training-category-container">
+ <!-- slider container -->
+ <div class="slider">
+   
+  <!-- slide 1 -->
+  <div class="slide">
+    <div class="slides-container">
+      <a href="category1.html"><img src="images/soccer.jpeg" alt=""></a>
+      
+    </div>
+    <a class="category-title" href="category1.html">Category 1 Title</a>
+  </div>
+    
+   <!-- slide 2 -->
+  <div class="slide">
+    <div class="slides-container">
+      <a href="category2.html"><img src="images/grey.png" alt=""></a>
+
+    </div>
+    <a class="category-title" href="category2.html">Category 2 Title</a>
+  </div>
+
+   <!-- slide 3 -->
+  <div class="slide">
+    <div class="slides-container">
+      <!-- add img here -->
+ </div>
+    <a class="category-title" href="">Category 3 Title</a>
+  </div>
+
+   <!-- slide 4 -->
+  <div class="slide">
+    <div class="slides-container">
+      <!-- add img here -->
+ </div>
+    <a class="category-title" href="">Category 4 Title</a>
+  </div>
+  
+    <!-- slide 5 -->
+    <div class="slide">
+      <div class="slides-container">
+        <!-- add img here -->
+   </div>
+      <a class="category-title" href="">Category 5 Title</a>
+    </div>
+
+      <!-- slide 6 -->
+  <div class="slide">
+    <div class="slides-container">
+      <!-- add img here -->
+ </div>
+    <a class="category-title" href="">Category 6 Title</a>
+  </div>
+
+    <!-- slide 7 -->
+    <div class="slide">
+      <div class="slides-container">
+        <!-- add img here -->
+   </div>
+      <a class="category-title" href="">Category 7 Title</a>
+    </div>
+
+      <!-- slide 8 -->
+  <div class="slide">
+    <div class="slides-container">
+      <!-- add img here -->
+ </div>
+    <a class="category-title" href="">Category 8 Title</a>
+  </div>
+
+   <!-- Control buttons -->
+
+      </div>
+      <button class="btn btn-next">❯</button>
+      <button class="btn btn-prev">❮</button>
+
+    </div>
+  </div>
+
+        <script>
+
+
+
+        </script>
+
+
+  <script src="js/training-materials.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+    <script src="js/rome.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
